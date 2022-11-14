@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className='portfolio-wrapper'>
             <div className='container'>
                 <h1 className='text-uppercase text-center py-5'>Portfolio</h1>
-                <div className='image-box-wrapper row justify-content-center'>
+                <div className='image-box-wrapper row row-cols-auto justify-content-center'>
                     <div className='portfolio-image-box'>
                         <img className='portfolio-image' src={nosql} alt='nosql project' />
                     </div>
