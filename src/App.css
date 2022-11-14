@@ -272,3 +272,7 @@ h1 {
 .footer p {
     margin-bottom: 0;
 }
+
+.pt-3 {
+    color: var(--primary-fuchsia);
+}
