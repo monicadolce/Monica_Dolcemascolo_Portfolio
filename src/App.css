@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Ubuntu:wght@300&display=swap');
+
+
+:root {
+    --primary-white: rgb(255, 255, 255);
+    --primary-fuchsia: rgb(255, 0, 255);
+    --primary-black: rgb(0, 0, 0);
+    --primary-dark: rgb(52, 58, 64);
+    
+
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+
+nav a.nav-link {
+    /* font-weight: 500; */
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+    font-size: .8rem;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: var(--primary-white) !important;
+    /* margin-bottom: 4rem; */
+}
+
+.navbar-brand {
+    color: var(--primary-fuchsia);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-bottom: 0.1875rem solid var(--primary-fuchsia);
+}
+
+/* .navbar-nav > li > a:hover {
+
+} */
+
+.header-wrapper {
+    position: relative;
+    background: url(background3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-family: "Roboto Condensed", sans-serif; */
+}
+
+.main-info h1 {
+    color: var(--primary-fuchsia);
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #FF00FF,
+    0 0 82px #FF00FF,
+    0 0 92px #FF00FF,
+    0 0 102px #FF00FF,
+    0 0 151px #FF00FF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Typewriter__wrapper, .Typewriter__cursor {
+    font-size: 2rem;
+    color: var(--primary-fuchsia);
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #FF00FF,
+    0 0 82px #FF00FF,
+    0 0 92px #FF00FF,
+    0 0 102px #FF00FF,
+    0 0 151px #FF00FF;
+}
+
+.resume-text {
+    color: var(--primary-fuchsia) !important;
+    text-transform: uppercase;
+}
+
+a:link { text-decoration: none; }
+
+
+
+.contact {
+    background: var(--primary-black);
+    padding: 3rem 0;
+}
+
+.contact h1{
+color: var(--primary-fuchsia);
+padding: 1.3rem 0;
+text-transform: uppercase;
+}
+
+.contact p {
+    color: var(--primary-fuchsia);
+    font-size: 1.2rem;
+}
+
+.contact input, .contact textarea {
+   width: 100%;
+   box-sizing: border-box; 
+   background: none;
+   resize: none;
+   border: 0;
+   border-bottom: 0.125rem solid var(--primary-dark);
+   border-radius: 0;
+   color: var(--primary-fuchsia);
+   outline: 0 !important;
+   box-shadow: none !important;
+   margin-bottom: 1rem;
+   padding-left: 0 !important;
+
+}
+
+.contact .container {
+    padding: 4rem 0;
+}
+
+.contact input:focus, .contact textarea:focus {
+    background: transparent;
+    color: var(--primary-fuchsia);
+    border-bottom: 0.125rem solid var(--primary-dark);
+}
+
+.contact textarea {
+    height: 12.4rem !important;
+}
+
+.contact-btn {
+    margin: 1rem 0 0 0;
+    width: 100%;
+    background: fuchsia
+}
+
+.line {
+    position: relative;
+    top: -0.8rem;
+    width: 0;
+    height: 0.125rem;
+    background: var(--primary-fuchsia);
+    display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+    margin: -0.3rem 0;
+}
+
+textarea.form-control {
+    margin: -0.3rem 0;
+}
+
+@media(max-width: 768px) {
+    .contact {
+        overflow-x: hidden;
+    }
+
+    .contact .container {
+        padding: 0 1rem;
+    }
+
+    .contact p {
+        padding: 0 0.4rem;
+    }
+}
+
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 16rem;
+    border-radius: 50%;
+    padding: .3rem;
+    border: 1px solid var(--primary-fuchsia)
+}
+
+.about-heading {
+    color: var(--primary-fuchsia);
+    text-transform: uppercase;
+}
+
+.about-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16rem;
+}
+
+.portfolio-wrapper {
+    background: var(--primary-black);
+    padding: 3rem 0;
+}
+
+.portfolio-image {
+    width: 15rem;
+    border: 1px solid var(--primary-fuchsia);
+    padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+    position: relative;
+    margin: 1rem;
+}
