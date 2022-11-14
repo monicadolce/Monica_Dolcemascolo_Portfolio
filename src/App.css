@@ -100,6 +100,14 @@ nav ul li {
     text-transform: uppercase;
 }
 
+/* removed white space between portfolio and resume */
+/* .resume {
+    background-color: var(--primary-black);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+} */
+
+
 a:link { text-decoration: none; }
 
 
