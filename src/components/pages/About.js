@@ -3,14 +3,9 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      Hello! I'm Monica and I'm so glad you decided to take a look at my page. I get my inspiration from nature's color palette. The world around me is rich in beauty and has so much to offer when creating a web page. When I'm not behind the screen, I'm either out and about with my dogs, hiking, traveling, snowboarding, scuba diving, or experimenting in the kitchen!
       </p>
     </div>
   );
