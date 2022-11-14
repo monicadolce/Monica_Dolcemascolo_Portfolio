@@ -22,16 +22,17 @@
   },
   "homepage": "https://monicadolce.github.io/my-app",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.2.2",
     "dotenv": "^16.0.3",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "typewriter-effect": "^2.19.0",
-    "@fortawesome/fontawesome-svg-core": "^6.2.0",
-    "@fortawesome/free-solid-svg-icons": "^6.2.0",
-    "@fortawesome/react-fontawesome": "^0.2.0"
+    "react-share": "^4.4.1",
+    "typewriter-effect": "^2.19.0"
   },
   "browserslist": {
     "production": [

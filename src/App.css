@@ -268,3 +268,7 @@ h1 {
     color: var(--primary-fuchsia);
     cursor: pointer;
 }
+
+.footer p {
+    margin-bottom: 0;
+}
