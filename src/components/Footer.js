@@ -27,8 +27,7 @@ const Footer = () => {
                         >
                             <LinkedinIcon className='mx-3' size={36} />
                         </LinkedinShareButton>
-                        <a href="https://github.com/monicadolce" ><FaGithub className='github-icon' size={40}/></a>
-                            
+                        <a href="https://github.com/monicadolce" ><FaGithub className='github-icon' size={40} /></a>
                     </div>
                     <p className='pt-3 text-center'>© 2022 Monica's Portfolio Copyright </p>
                 </div>
