@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Portfolio />
         <Resume />
         <Contact />
+        <Footer />
     </>
     );
 }
