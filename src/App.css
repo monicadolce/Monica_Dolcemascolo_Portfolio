@@ -229,6 +229,15 @@ textarea.form-control {
 }
 
 .portfolio-image-box {
-    position: relative;
+    position: relative; 
     margin: 1rem;
+}
+/* .portfolio-image-box-1 {
+    margin: 1rem;
+    float:right;
+    display: inline;
+} */
+
+h1 {
+    color: var(--primary-fuchsia);
 }
