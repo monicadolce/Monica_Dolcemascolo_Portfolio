@@ -249,3 +249,22 @@ textarea.form-control {
 h1 {
     color: var(--primary-fuchsia);
 }
+
+/* Footer */
+
+.footer {
+    background: var(--primary-black);
+    color: var(--primary-dark);
+    padding: 3rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--primary-dark);
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: var(--primary-fuchsia);
+    cursor: pointer;
+}
