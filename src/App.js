@@ -28,7 +28,7 @@ function App() {
                 />
                 {/* Define a route that will take in variable data */}
                 <Route 
-                  path="/about" 
+                  path="/aboutme" 
                   element={<AboutMe />} 
                 />
                  <Route 
