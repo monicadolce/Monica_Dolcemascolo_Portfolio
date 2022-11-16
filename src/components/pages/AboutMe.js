@@ -1,7 +1,7 @@
 import React from 'react';
-import author from '../profile.png';
+import author from '../../profile.png';
 
-const AboutMe = () => {
+export default function AboutMe() {
   return (
     <div className='conatiner py-5'>
       <div className='row'>
@@ -28,5 +28,3 @@ const AboutMe = () => {
     </div>
   )
 }
-
-export default AboutMe;

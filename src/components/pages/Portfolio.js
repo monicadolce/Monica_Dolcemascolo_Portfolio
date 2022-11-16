@@ -1,10 +1,10 @@
 import React from 'react'
-import nosql from '../images/nosql.gif';
-import note_taker from '../images/note_taker.png';
-import scheduler from '../images/scheduler.gif';
-import weather from '../images/weather.png';
+import nosql from '../../images/nosql.gif';
+import note_taker from '../../images/note_taker.png';
+import scheduler from '../../images/scheduler.gif';
+import weather from '../../images/weather.png';
 
-const Portfolio = () => {
+export default function Portfolio () {
     return (
         <div className='portfolio-wrapper'>
             <div className='container'>
@@ -27,5 +27,3 @@ const Portfolio = () => {
         </div>
     )
 }
-
-export default Portfolio

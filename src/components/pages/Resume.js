@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Resume = () => {
+export default function Resume () {
   return (
     <div className='resume'>
     <div className='d-flex justify-content-center my-5'>
@@ -10,5 +10,3 @@ const Resume = () => {
 
   )
 }
-
-export default Resume
