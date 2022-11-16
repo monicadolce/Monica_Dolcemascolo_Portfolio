@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 
-export default function Header() {
+export default function Home() {
   return (
     <div className='header-wrapper'>
         <div className='main-info'>

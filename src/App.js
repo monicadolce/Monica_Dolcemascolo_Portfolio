@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Header from './components/pages/Header';
+import Home from './components/pages/Home';
 import AboutMe from './components/pages/AboutMe';
 import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
@@ -24,7 +24,7 @@ function App() {
                 {/* Define a default route that will render the Home component */}
                 <Route 
                   path="/" 
-                  element={<Header />} 
+                  element={<Home />} 
                 />
                 {/* Define a route that will take in variable data */}
                 <Route 
