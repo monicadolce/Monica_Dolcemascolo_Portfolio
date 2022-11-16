@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 
-const Header = () => {
+export default function Header() {
   return (
     <div className='header-wrapper'>
         <div className='main-info'>
@@ -19,5 +19,3 @@ const Header = () => {
     </div>
   )
 }
-
-export default Header
