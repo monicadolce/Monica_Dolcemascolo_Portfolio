@@ -172,7 +172,8 @@ h1 {
 
 /*********************************************************** Resume *********************************************************************/
 .resume-text {
-    color: var(--primary-fuchsia) !important;
+    /* color: var(--primary-fuchsia) !important; */
+    color: rgba(117, 26, 117, 0.995);
     text-transform: uppercase;
     padding-bottom: 3rem;
 }
@@ -332,7 +333,8 @@ textarea.form-control {
   .experience h1 {
     text-transform: uppercase;
     /* color: var(--primary-orange); */
-    color:  #f9ab00;
+    /* color:  #f9ab00; */
+    color: rgba(117, 26, 117, 0.995);
 
   }
   
@@ -372,7 +374,8 @@ textarea.form-control {
     border-radius: 50%;;
     border: 0.3125rem solid var(--primary-dark);
     /* background: var(--primary-orange); */
-    background: #f9ab00;
+    /* background: #f9ab00; */
+    background: fuchsia;
     margin-top: 0.625rem;
     z-index: 3;
   }
@@ -381,13 +384,24 @@ textarea.form-control {
     width: 95%;
     padding: 0 0.9375rem;
     /* color: var(--primary-dark-grey); */
-    color:  #ccd1d9;
+    /* color:  #ccd1d9; */
+    color: rgba(117, 26, 117, 0.995);
     direction: ltr;
   }
   
   .timeline-content h3 {
     margin-top: 0.3125rem;
     /* color: var(--primary-red); */
-    color: #ef4035;
-    font-weight: 900;
+    /* color: #ef4035; */
+    color: orange;
+    font-weight: 90;
+  }
+
+  .experience h5 {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .resume a {
+    color: rgba(117, 26, 117, 0.995) !important;
   }
