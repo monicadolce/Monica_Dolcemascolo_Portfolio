@@ -8,25 +8,60 @@ import { SiMysql, SiMongodb } from 'react-icons/si';
 
 export default function Resume () {
   return (
-    <div className='resume'>
-    <div className='d-flex justify-content-center my-5'>
-    <a href='https://drive.google.com/file/d/1tryEB24IYS6-RlvU8Zc6QpT0tIJ12j1P/view?usp=share_link'><h1 className='resume-text'>Take a look at my Resume</h1></a>
+    <div id="experience" className="experience">
+    <div className="d-flex justify-content-center my-5">
+      <h1>experience</h1>
     </div>
-    <div class='row'>
-    <div className='text-center'>
-      <div className='icons'>
-      <p><ImHtmlFive/></p>
-      <p><ImCss3/></p>
-      <p><TbBrandJavascript/></p>
-      <p><FaReact/></p>
-      <p><FaBootstrap/></p>
-      <p><DiNodejs/></p>
-      <p><SiMysql/></p>
-      <p><SiMongodb/></p>
+    <div className="container experience-wrapper">
+      <div className="timeline-block timeline-block-right">
+        <div className="marker"></div>
+        <div className="timeline-content">
+          <h3>2014-2015</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+        </div>
+      </div>
+      {/* - */}
+      <div className="timeline-block timeline-block-left">
+        <div className="marker"></div>
+        <div className="timeline-content">
+          <h3>2014-2015</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+        </div>
+      </div>
+      {/* - */}
+      <div className="timeline-block timeline-block-right">
+        <div className="marker"></div>
+        <div className="timeline-content">
+          <h3>2015-2016</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+        </div>
+      </div>
+      {/* - */}
+      <div className="timeline-block timeline-block-left">
+        <div className="marker"></div>
+        <div className="timeline-content">
+          <h3>2016-2017</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+        </div>
+      </div>
+      {/* - */}
+      <div className="timeline-block timeline-block-right">
+        <div className="marker"></div>
+        <div className="timeline-content">
+          <h3>2017-2018</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+        </div>
+      </div>
+      {/* - */}
+      <div className="timeline-block timeline-block-left">
+        <div className="marker"></div>
+        <div className="timeline-content">
+          <h3>2018-2020</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-</div>
+  </div>
+)
 
-  )
 }

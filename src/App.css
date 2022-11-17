@@ -1,3 +1,4 @@
+/*********************************************************** Google Fonts *********************************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Ubuntu:wght@300&display=swap');
 
@@ -16,6 +17,8 @@ body {
     background-color: rgb(226, 221, 221);
     /* background-color: black; */
 }
+
+/*********************************************************** Navbar *********************************************************************/
 
 .navbar {
     /* background-color: var(--primary-dark) !important; */
@@ -56,6 +59,8 @@ nav ul li {
 /* .navbar-nav > li > a:hover {
 
 } */
+
+/*********************************************************** Home *********************************************************************/
 
 .home-wrapper {
     position: relative;
@@ -108,6 +113,64 @@ nav ul li {
     0 0 151px #FF00FF;
 }
 
+
+/*********************************************************** About Me *********************************************************************/
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 16rem;
+    border-radius: 50%;
+    padding: .3rem;
+    border: 1px solid var(--primary-fuchsia)
+}
+
+.about-heading {
+    color: var(--primary-fuchsia);
+    text-transform: uppercase;
+}
+
+.about-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16rem;
+}
+
+/*********************************************************** Portfolio *********************************************************************/
+.portfolio-wrapper {
+    
+    padding: 3rem 0;
+}
+
+.portfolio-image {
+    width: 15rem;
+    border: 1px solid var(--primary-fuchsia);
+    /* padding: 0 0.5rem; */
+}
+
+.portfolio-image-box {
+    position: relative; 
+    margin: 1rem;
+}
+
+.portfolio-wrapper a {
+    color: rgba(117, 26, 117, 0.995);
+}
+/* .portfolio-image-box-1 {
+    margin: 1rem;
+    float:right;
+    display: inline;
+} */
+
+h1 {
+    color: var(--primary-fuchsia);
+}
+
+/*********************************************************** Resume *********************************************************************/
 .resume-text {
     color: var(--primary-fuchsia) !important;
     text-transform: uppercase;
@@ -129,11 +192,13 @@ font-size: 3rem;
 
 a:link { text-decoration: none; }
 
-/* Contact */
+/*********************************************************** Contact *********************************************************************/
 
 .contact {
-    background: var(--primary-black);
-    padding: 3rem 0;
+    /* background: var(--primary-black); */
+    background-color: rgb(70, 154, 200);
+    padding: .4rem 0.3;
+    width: 50%;
 }
 
 .contact h1{
@@ -219,66 +284,11 @@ textarea.form-control {
     }
 }
 
-/* About Me */
-.photo-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.profile-img {
-    width: 16rem;
-    border-radius: 50%;
-    padding: .3rem;
-    border: 1px solid var(--primary-fuchsia)
-}
-
-.about-heading {
-    color: var(--primary-fuchsia);
-    text-transform: uppercase;
-}
-
-.about-paragraph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 16rem;
-}
-
-/* Portfolio */
-.portfolio-wrapper {
-    
-    padding: 3rem 0;
-}
-
-.portfolio-image {
-    width: 15rem;
-    border: 1px solid var(--primary-fuchsia);
-    /* padding: 0 0.5rem; */
-}
-
-.portfolio-image-box {
-    position: relative; 
-    margin: 1rem;
-}
-
-.portfolio-wrapper a {
-    color: rgba(117, 26, 117, 0.995);
-}
-/* .portfolio-image-box-1 {
-    margin: 1rem;
-    float:right;
-    display: inline;
-} */
-
-h1 {
-    color: var(--primary-fuchsia);
-}
-
-/* Footer */
+/*********************************************************** Footer *********************************************************************/
 
 .footer {
-    background: var(--primary-dark);
+    /* background: var(--primary-dark); */
+    background-color: rgba(219, 182, 217, 0.755) !important;
     color: var(--primary-dark);
     padding: 3rem;
     margin-top: 6rem;
@@ -306,3 +316,78 @@ h1 {
 .github-icon {
     margin-left: .6rem;;
 }
+
+/************************ EXPERIENCE *********************************/
+
+.experience {
+    padding: 0.7rem;
+  }
+  
+  .experience-wrapper {
+    position: relative;
+    padding: 3.125rem 0;
+    overflow: hidden;
+  }
+  
+  .experience h1 {
+    text-transform: uppercase;
+    /* color: var(--primary-orange); */
+    color:  #f9ab00;
+
+  }
+  
+  .experience-wrapper::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    margin-left: -0.0625rem;
+    width: 0.125rem;
+    height: 100%;
+    /* background: var(--primary-grey); */
+    background: #ccd1d9;
+    z-index: 1;
+  }
+  
+  .timeline-block {
+    width: calc(50% + 0.5rem);
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+  }
+  
+  .timeline-block-right {
+    float: right;
+  }
+  
+  .timeline-block-left {
+    float: left;
+    direction: rtl;
+  }
+  
+  
+  .marker {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;;
+    border: 0.3125rem solid var(--primary-dark);
+    /* background: var(--primary-orange); */
+    background: #f9ab00;
+    margin-top: 0.625rem;
+    z-index: 3;
+  }
+  
+  .timeline-content {
+    width: 95%;
+    padding: 0 0.9375rem;
+    /* color: var(--primary-dark-grey); */
+    color:  #ccd1d9;
+    direction: ltr;
+  }
+  
+  .timeline-content h3 {
+    margin-top: 0.3125rem;
+    /* color: var(--primary-red); */
+    color: #ef4035;
+    font-weight: 900;
+  }
