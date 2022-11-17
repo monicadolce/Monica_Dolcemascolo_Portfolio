@@ -255,6 +255,10 @@ textarea.form-control {
     position: relative; 
     margin: 1rem;
 }
+
+.portfolio-wrapper a {
+    color: rgba(117, 26, 117, 0.995);
+}
 /* .portfolio-image-box-1 {
     margin: 1rem;
     float:right;
