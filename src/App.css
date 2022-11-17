@@ -248,7 +248,7 @@ textarea.form-control {
 .portfolio-image {
     width: 15rem;
     border: 1px solid var(--primary-fuchsia);
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
 }
 
 .portfolio-image-box {
