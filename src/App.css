@@ -111,7 +111,12 @@ nav ul li {
 .resume-text {
     color: var(--primary-fuchsia) !important;
     text-transform: uppercase;
-    padding-bottom: 16rem;
+    padding-bottom: 3rem;
+}
+
+.icons {
+color: rgb(44, 178, 44);
+font-size: 3rem;
 }
 
 /* removed white space between portfolio and resume */
