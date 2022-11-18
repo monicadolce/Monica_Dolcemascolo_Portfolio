@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/monicadolce/Monica_Dolcemascolo_Portfolio/issues"
   },
-  
+  "homepage": "https://monicadolce.github.io/my-app",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
