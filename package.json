@@ -8,7 +8,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/monicadolce/Monica_Dolcemascolo_Portfolio/issues"
   },
-  "homepage": "https://monicadolce.github.io/Monica_Dolcemascolo_Portfolio/",
+  "homepage": "https://monicadolce.github.io/Monica_Dolcemascolo_Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
