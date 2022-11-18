@@ -8,6 +8,7 @@
     --primary-fuchsia: rgb(255, 0, 255);
     --primary-black: rgb(0, 0, 0);
     --primary-dark: rgb(52, 58, 64);
+    --primary-purple: rgba(117, 26, 117, 0.995);
     
 
 }
@@ -207,30 +208,41 @@ padding: 1.3rem 0;
 text-transform: uppercase;
 }
 
-.contact p {
+/* .contact p {
     color: var(--primary-fuchsia);
     font-size: 1.2rem;
 }
+ */
 
-/* .contact input, .contact textarea {
-   width: 100%;
-   box-sizing: border-box; 
-   background: none;
-   resize: none;
-   border: 0;
-   border-bottom: 0.125rem solid var(--primary-dark);
-   border-radius: 0;
-   color: var(--primary-fuchsia);
-   outline: 0 !important;
-   box-shadow: none !important;
-   margin-bottom: 1rem;
-   padding-left: 0 !important;
+#contact-name {
+    margin-bottom: 1rem;
 
-} */
-
-.contact .container {
-    padding: 5rem 0;
 }
+#contact-email {
+    margin-bottom: 1rem;
+}
+#contact-message {
+    box-sizing: content-box;
+    margin-bottom: 2rem;
+}
+
+#name {
+    color: var(--primary-purple);
+    padding-right: 1rem;
+}
+#email {
+    color: var(--primary-purple);
+    padding-right: 1rem;
+}
+#message {
+    color: var(--primary-purple);
+    padding-right: 1rem;
+}
+
+
+/* .contact .container {
+    padding: 2rem 0;
+} */
 
 .contact input:focus, .contact textarea:focus {
     background: transparent;

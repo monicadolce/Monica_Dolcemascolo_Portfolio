@@ -23,18 +23,20 @@ export default function Contact() {
                 <div className='container'>
                     <div className='vstack gap-3'>
                     <form ref={form} onSubmit={sendEmail}>
-                        <div>
-                        <label>Name</label>
+                        <div id='contact-name'>
+                        <label id='name'>Name</label>
                         <input type="text" name="name" />
                         </div>
-                        <div>
-                        <label>Email</label>
+                        <div id='contact-email'>
+                        <label id='email'>Email</label>
                         <input type="email" name="email" />
                         </div>
-                        <div>
-                        <label>Message</label>
+                        <div id='contact-message'>
+                        <label id='message'>Message</label>
                         <textarea name="message" />
+                        <div>
                         <input type="submit" value="Send" />
+                        </div>
                         </div>
                     </form>
                     </div>
