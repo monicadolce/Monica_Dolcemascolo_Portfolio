@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Monica_Dolcemascolo_Portfolio/static/css/main.2c739914.css",
+    "main.js": "/Monica_Dolcemascolo_Portfolio/static/js/main.24a19916.js",
+    "static/media/background3.jpg": "/Monica_Dolcemascolo_Portfolio/static/media/background3.f48626311890e5c6e862.jpg",
+    "static/media/scheduler.gif": "/Monica_Dolcemascolo_Portfolio/static/media/scheduler.5b3f62cdcc4cafa34102.gif",
+    "static/media/good_buys.gif": "/Monica_Dolcemascolo_Portfolio/static/media/good_buys.437ce5630d2ff14a82f1.gif",
+    "static/media/nosql.gif": "/Monica_Dolcemascolo_Portfolio/static/media/nosql.32e95b34eaea9a00fce3.gif",
+    "static/media/weather.png": "/Monica_Dolcemascolo_Portfolio/static/media/weather.b853c20de26403441cd3.png",
+    "static/media/profile.png": "/Monica_Dolcemascolo_Portfolio/static/media/profile.950f4218bc4ccb16a707.png",
+    "static/media/note_taker.png": "/Monica_Dolcemascolo_Portfolio/static/media/note_taker.7852f5367aad182625ec.png",
+    "static/media/furrever.gif": "/Monica_Dolcemascolo_Portfolio/static/media/furrever.a77a4d745d842cb895dc.gif",
+    "index.html": "/Monica_Dolcemascolo_Portfolio/index.html",
+    "main.2c739914.css.map": "/Monica_Dolcemascolo_Portfolio/static/css/main.2c739914.css.map",
+    "main.24a19916.js.map": "/Monica_Dolcemascolo_Portfolio/static/js/main.24a19916.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c739914.css",
+    "static/js/main.24a19916.js"
+  ]
+}
