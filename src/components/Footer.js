@@ -7,8 +7,9 @@ import {
 } from 'react-share';
 import { FaGithub } from 'react-icons/fa';
 
+import { MdOutlineEmail } from 'react-icons/md';
 
-
+import { Link } from 'react-router-dom' ;
 
 
 const Footer = () => {
@@ -28,10 +29,13 @@ const Footer = () => {
                             <LinkedinIcon className='mx-3' size={36} />
                         </LinkedinShareButton>
                         <a href="https://github.com/monicadolce" ><FaGithub className='github-icon' size={40} /></a>
+                        <a onClick={(e) => {window.location.href ='mailto:example@email.com';}}><MdOutlineEmail className='mx-3' size={45}/> </a>
                     </div>
+                    <div>
                     <p className='pt-3 text-center'>© 2022 Monica's Portfolio Copyright </p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

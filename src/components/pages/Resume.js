@@ -1,10 +1,10 @@
 import React from 'react';
-import { ImHtmlFive, ImCss3,  } from 'react-icons/im';
-import { TbBrandJavascript  } from 'react-icons/tb';
-import { FaReact, FaBootstrap } from 'react-icons/fa';
-import { DiNodejs } from 'react-icons/di';
-import { SiMysql, SiMongodb } from 'react-icons/si';
-import { FaRegFilePdf } from 'react-icons/fa';
+// import { ImHtmlFive, ImCss3,  } from 'react-icons/im';
+// import { TbBrandJavascript  } from 'react-icons/tb';
+// import { FaReact, FaBootstrap } from 'react-icons/fa';
+// import { DiNodejs } from 'react-icons/di';
+// import { SiMysql, SiMongodb } from 'react-icons/si';
+// import { FaRegFilePdf } from 'react-icons/fa';
 
 
 export default function Resume () {

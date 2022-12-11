@@ -1,10 +1,9 @@
 import React from 'react'
-import nosql from '../../images/nosql.gif';
 import note_taker from '../../images/note_taker.png';
-import scheduler from '../../images/scheduler.gif';
-import weather from '../../images/weather.png';
 import furrever from '../../images/furrever.gif';
-import good_buys from '../../images/good_buys.gif';
+import medley from '../../images/medley.gif';
+import book_look from '../../images/book_look.gif';
+
 
 export default function Portfolio() {
     return (
@@ -14,50 +13,34 @@ export default function Portfolio() {
                 <div className='image-box-wrapper row row-cols-auto justify-content-center'>
                     <div className='portfolio-image-box'>
                         <figure>
-                            <a href='https://github.com/monicadolce/Social_networking'>
-                                <img className='portfolio-image' src={nosql} alt='nosql project' />
-                                <figcaption className='text-center'>Social Networking</figcaption>
+                            <a href='https://serene-gorge-47802.herokuapp.com/'>
+                                <img className='portfolio-image' src={book_look} alt='book_look project' />
+                                <figcaption className='text-center'>Book Look</figcaption>
                             </a>
                         </figure>
                     </div>
                     <div className='portfolio-image-box'>
                         <figure>
-                        <a href='https://morning-brook-53750.herokuapp.com/'>
-                        <img className='portfolio-image' src={note_taker} alt='note_taker project' />
-                        <figcaption className='text-center'>My Notes</figcaption>
-                        </a>
-                        </figure>
-                    </div>
-                    <div className='portfolio-image-box'>
-                    <figure>
-                    <a href='https://monicadolce.github.io/Work_Day_Scheduler/'>
-                        <img className='portfolio-image' src={scheduler} alt='scheduler project' />
-                        <figcaption className='text-center'>Work Day Scheduler</figcaption>
-                        </a>
-                        </figure>
-                    </div>
-                    <div className='portfolio-image-box'>
-                    <figure>
-                    <a href='https://monicadolce.github.io/Forecast_Dashboard/'>
-                        <img className='portfolio-image' src={weather} alt='weather project' />
-                        <figcaption className='text-center'>Forecast Dashboard</figcaption>
-                        </a>
-                        </figure>
-                    </div>
-                    <div className='portfolio-image-box'>
-                    <figure>
-                    <a href='https://enigmatic-gorge-61389.herokuapp.com/'>
-                        <img className='portfolio-image' src={furrever} alt='furrever project' />
-                        <figcaption className='text-center'>Furrever</figcaption>
-                        </a>
+                            <a href='https://morning-brook-53750.herokuapp.com/'>
+                                <img className='portfolio-image' src={note_taker} alt='note_taker project' />
+                                <figcaption className='text-center'>My Notes</figcaption>
+                            </a>
                         </figure>
                     </div>
                     <div className='portfolio-image-box'>
                         <figure>
-                        <a href='https://github.com/monicadolce/Good_buys'>
-                        <img className='portfolio-image' src={good_buys} alt='horiseon project' />
-                        <figcaption className='text-center'>Goodbuys</figcaption>
-                        </a>
+                            <a href='https://medley.herokuapp.com/'>
+                                <img className='portfolio-image' src={medley} alt='medley project' />
+                                <figcaption className='text-center'>Medley</figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    <div className='portfolio-image-box'>
+                        <figure>
+                            <a href='https://enigmatic-gorge-61389.herokuapp.com/'>
+                                <img className='portfolio-image' src={furrever} alt='furrever project' />
+                                <figcaption className='text-center'>Furrever</figcaption>
+                            </a>
                         </figure>
                     </div>
                 </div>
