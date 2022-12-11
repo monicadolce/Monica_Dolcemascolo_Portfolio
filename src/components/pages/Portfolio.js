@@ -1,5 +1,5 @@
 import React from 'react'
-import note_taker from '../../images/note_taker.png';
+import scheduler from '../../images/scheduler.gif';
 import furrever from '../../images/furrever.gif';
 import medley from '../../images/medley.gif';
 import book_look from '../../images/book_look.gif';
@@ -21,9 +21,9 @@ export default function Portfolio() {
                     </div>
                     <div className='portfolio-image-box'>
                         <figure>
-                            <a href='https://morning-brook-53750.herokuapp.com/'>
-                                <img className='portfolio-image' src={note_taker} alt='note_taker project' />
-                                <figcaption className='text-center'>My Notes</figcaption>
+                            <a href='https://monicadolce.github.io/Work_Day_Scheduler/'>
+                                <img className='portfolio-image' src={scheduler} alt='scheduler project' />
+                                <figcaption className='text-center'>Work Day Scheduler</figcaption>
                             </a>
                         </figure>
                     </div>

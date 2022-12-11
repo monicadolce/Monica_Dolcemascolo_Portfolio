@@ -9,7 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 
 import { MdOutlineEmail } from 'react-icons/md';
 
-import { Link } from 'react-router-dom' ;
+// import { Link } from 'react-router-dom' ;
 
 
 const Footer = () => {
