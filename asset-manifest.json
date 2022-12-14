@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Monica_Dolcemascolo_Portfolio/static/css/main.e1f199de.css",
-    "main.js": "/Monica_Dolcemascolo_Portfolio/static/js/main.46456397.js",
+    "main.js": "/Monica_Dolcemascolo_Portfolio/static/js/main.fbbede98.js",
     "static/media/book_look.gif": "/Monica_Dolcemascolo_Portfolio/static/media/book_look.54bacb34555dbe7af2b6.gif",
     "static/media/furrever.gif": "/Monica_Dolcemascolo_Portfolio/static/media/furrever.b9583156b13e356728d6.gif",
     "static/media/scheduler.gif": "/Monica_Dolcemascolo_Portfolio/static/media/scheduler.5b3f62cdcc4cafa34102.gif",
@@ -10,10 +10,10 @@
     "static/media/profile.png": "/Monica_Dolcemascolo_Portfolio/static/media/profile.950f4218bc4ccb16a707.png",
     "index.html": "/Monica_Dolcemascolo_Portfolio/index.html",
     "main.e1f199de.css.map": "/Monica_Dolcemascolo_Portfolio/static/css/main.e1f199de.css.map",
-    "main.46456397.js.map": "/Monica_Dolcemascolo_Portfolio/static/js/main.46456397.js.map"
+    "main.fbbede98.js.map": "/Monica_Dolcemascolo_Portfolio/static/js/main.fbbede98.js.map"
   },
   "entrypoints": [
     "static/css/main.e1f199de.css",
-    "static/js/main.46456397.js"
+    "static/js/main.fbbede98.js"
   ]
 }
