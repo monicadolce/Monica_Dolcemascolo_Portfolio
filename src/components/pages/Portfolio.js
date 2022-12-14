@@ -3,17 +3,19 @@ import scheduler from '../../images/scheduler.gif';
 import furrever from '../../images/furrever.gif';
 import medley from '../../images/medley.gif';
 import book_look from '../../images/book_look.gif';
+// import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+// import "react-popupbox/dist/react-popupbox.css";
 
 
 export default function Portfolio() {
     return (
         <div className='portfolio-wrapper'>
             <div className='container'>
-                <h1 className='text-uppercase text-center py-6'>Portfolio</h1>
+                <h1 className='text-uppercase text-center py-5'>Portfolio</h1>
                 <div className='image-box-wrapper row row-cols-auto justify-content-center'>
                     <div className='portfolio-image-box'>
                         <figure>
-                            <a href='https://serene-gorge-47802.herokuapp.com/'>
+                            <a href='https://serene-gorge-47802.herokuapp.com/' target={'_blank'}>
                                 <img className='portfolio-image' src={book_look} alt='book_look project' />
                                 <figcaption className='text-center'>Book Look</figcaption>
                             </a>
@@ -21,7 +23,7 @@ export default function Portfolio() {
                     </div>
                     <div className='portfolio-image-box'>
                         <figure>
-                            <a href='https://monicadolce.github.io/Work_Day_Scheduler/'>
+                            <a href='https://monicadolce.github.io/Work_Day_Scheduler/' target={'_blank'}>
                                 <img className='portfolio-image' src={scheduler} alt='scheduler project' />
                                 <figcaption className='text-center'>Work Day Scheduler</figcaption>
                             </a>
@@ -29,7 +31,7 @@ export default function Portfolio() {
                     </div>
                     <div className='portfolio-image-box'>
                         <figure>
-                            <a href='https://medley.herokuapp.com/'>
+                            <a href='https://medley.herokuapp.com/' target={'_blank'}>
                                 <img className='portfolio-image' src={medley} alt='medley project' />
                                 <figcaption className='text-center'>Medley</figcaption>
                             </a>
@@ -37,7 +39,7 @@ export default function Portfolio() {
                     </div>
                     <div className='portfolio-image-box'>
                         <figure>
-                            <a href='https://enigmatic-gorge-61389.herokuapp.com/'>
+                            <a href='https://enigmatic-gorge-61389.herokuapp.com/ 'target={'_blank'}>
                                 <img className='portfolio-image' src={furrever} alt='furrever project' />
                                 <figcaption className='text-center'>Furrever</figcaption>
                             </a>

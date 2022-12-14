@@ -12,9 +12,9 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 const Footer = () => {
     return (
-        <div className='footer'>
-            <div className='text-center'>
-                <div className='container'>
+        <footer id= 'footer' className= "container-fluid absolute-bottom ">
+            <div className="">
+                <div className='row justify-content-md-center py-3'>
                     <div className='d-flex justify-content-center'>
                         < TwitterShareButton
                             url={'https://twitter.com/MonicaDolcemas2'}
@@ -26,7 +26,7 @@ const Footer = () => {
                         >
                             <LinkedinIcon className='mx-3' size={36} />
                         </LinkedinShareButton>
-                        <a href="https://github.com/monicadolce" ><FaGithub className='github-icon' size={40} /></a>
+                        <a href="https://github.com/monicadolce" target={'_blank'}><FaGithub className='github-icon' size={40} /></a>
                         <a onClick={(e) => {window.location.href ='mailto:example@email.com';}}><MdOutlineEmail className='mx-3' size={45}/> </a>
                     </div>
                     <div>
@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        </div>
+        </footer>
     )
 }
 

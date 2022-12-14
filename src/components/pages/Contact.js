@@ -25,17 +25,17 @@ export default function Contact() {
                     <form ref={form} onSubmit={sendEmail}>
                         <div id='contact-name'>
                         <label id='name'>Name</label>
-                        <input type="text" name="name" />
+                        <input style={{border:'1px solid var(--primary-orange)'}} type="text" name="name" />
                         </div>
                         <div id='contact-email'>
                         <label id='email'>Email</label>
-                        <input type="email" name="email" />
+                        <input style={{border:'1px solid var(--primary-orange)'}} type="email" name="email" />
                         </div>
                         <div id='contact-message'>
                         <label id='message'>Message</label>
-                        <textarea name="message" />
+                        <textarea style={{border:'1px solid var(--primary-orange)'}} name="message" />
                         <div>
-                        <input type="submit" value="Send" />
+                        <input style={{backgroundColor: 'rgb(221, 127, 45)', color: 'rgba(9, 64, 84, 0.832)'}} type="submit" value="Send" />
                         </div>
                         </div>
                     </form>
