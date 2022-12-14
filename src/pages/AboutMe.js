@@ -1,5 +1,5 @@
 import React from 'react';
-import author from '../../profile.png';
+import author from '../assets/profile.png';
 
 export default function AboutMe() {
   return (

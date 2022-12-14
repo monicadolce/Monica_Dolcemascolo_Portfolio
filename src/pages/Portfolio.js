@@ -1,8 +1,8 @@
 import React from 'react'
-import scheduler from '../../images/scheduler.gif';
-import furrever from '../../images/furrever.gif';
-import medley from '../../images/medley.gif';
-import book_look from '../../images/book_look.gif';
+import scheduler from '../assets/scheduler.gif';
+import furrever from '../assets/furrever.gif';
+import medley from '../assets/medley.gif';
+import book_look from '../assets/book_look.gif';
 // import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 // import "react-popupbox/dist/react-popupbox.css";
 

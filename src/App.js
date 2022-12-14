@@ -1,20 +1,20 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {HashRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import {HashRouter, Route, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './components/pages/Home';
-import AboutMe from './components/pages/AboutMe';
-import Portfolio from './components/pages/Portfolio';
-import Contact from './components/pages/Contact';
-import Resume from './components/pages/Resume';
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 
 function App() {
     return (
-        <HashRouter>
+        <Router>
           <div className="flex-column justify-flex-start min-100-vh">
             <Navbar />
             <div className="">
@@ -43,7 +43,7 @@ function App() {
             </div>
             <Footer />
           </div>
-        </HashRouter>
+        </Router>
     );
   }
 
