@@ -1,8 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {HashRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import {HashRouter, Route, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -14,7 +14,7 @@ import Resume from './pages/Resume';
 
 function App() {
     return (
-        <HashRouter>
+        <Router>
           <div className="flex-column justify-flex-start min-100-vh">
             <Navbar />
             <div className="">
@@ -43,7 +43,7 @@ function App() {
             </div>
             <Footer />
           </div>
-        </HashRouter>
+        </Router>
     );
   }
 
@@ -51,3 +51,4 @@ function App() {
 
 
 export default App;
+
