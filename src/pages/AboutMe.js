@@ -11,7 +11,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className='col-lg-6 col-xm-12'>
-          <h1 className='about-heading'>About me</h1>
+          <h1 className='about-heading'>ciao!</h1>
           <p className='about-paragraph'>
             Hello! I'm Monica and I'm so glad you decided to take a look at my page!
 
