@@ -278,6 +278,8 @@ a:link {
     /* height: 68rem;
     width: 40rem; */
     margin: 9rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
     /* display: flex; */
 
   }
@@ -361,7 +363,7 @@ a:link {
   
   .timeline-content h3 {
     margin-top: 0.3125rem;
-    color: rgb(223, 95, 40);
+    color: rgb(213, 68, 10);
     /* color: var(--primary-red); */
     /* color: #ef4035; */
     /* color: rgb(20, 174, 133); */
@@ -386,6 +388,26 @@ a:link {
     color: rgb(223, 95, 40);
 }
 
+@media(max-width: 768px) {
+.experience .container {
+  padding-left: 0;
+}
+
+  .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  
+  .timeline-block-left {
+    float: none;
+    direction: ltr; 
+    width: 100%;
+  }
+}
 
 /*********************************************************** Contact *********************************************************************/
 /* 
