@@ -12,13 +12,22 @@ export default function Resume () {
       <div className="timeline-block timeline-block-right">
         <div className="marker"></div>
         <div className="timeline-content">
+          <h3>2022</h3>
+          <h5>Full Stack Web Developer</h5>
+          <p>Geaduated from Rutgers University technical training program focused on HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, MySQL, MongoDB, Express.js, React.js, Git, progressive web apps, agile methodology, computer science and database theory.</p>
+        </div>
+      </div>
+      {/* - */}
+      <div className="timeline-block timeline-block-left">
+        <div className="marker"></div>
+        <div className="timeline-content">
           <h3>2020-2021</h3>
           <h5>Law Enforcement Officer</h5>
           <p>Served and protected New Yorkers and visitors of the New York City Metropolitan Area during challenging times with empathy, critical thinking and above all, positive interaction with the community.</p>
         </div>
       </div>
       {/* - */}
-      <div className="timeline-block timeline-block-left">
+      <div className="timeline-block timeline-block-right">
         <div className="marker"></div>
         <div className="timeline-content">
           <h3>2015-2020</h3>
@@ -27,7 +36,7 @@ export default function Resume () {
         </div>
       </div>
       {/* - */}
-      <div className="timeline-block timeline-block-right">
+      <div className="timeline-block timeline-block-left">
         <div className="marker"></div>
         <div className="timeline-content">
           <h3>2014-2015</h3>
@@ -36,21 +45,12 @@ export default function Resume () {
         </div>
       </div>
       {/* - */}
-      <div className="timeline-block timeline-block-left">
+      <div className="timeline-block timeline-block-right">
         <div className="marker"></div>
         <div className="timeline-content">
           <h3>2013-2014</h3>
           <h5>English as a Second Language Teacher</h5>
           <p>Prepared and taught daily English as a second language lessons to students from all over the world.</p>
-        </div>
-      </div>
-      {/* - */}
-      <div className="timeline-block timeline-block-right">
-        <div className="marker"></div>
-        <div className="timeline-content">
-          <h3>2010-2013</h3>
-          <h5>English as a Second Language Teacher</h5>
-          <p>Prepared and taught daily English as a second language lessons to Italian students.</p>
         </div>
       </div>
       {/* - */}

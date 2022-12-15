@@ -276,6 +276,8 @@ a:link {
     /* height: 68rem;
     width: 40rem; */
     margin: 9rem;
+    /* display: flex; */
+
   }
 
   /* #experience-link a:hover {
@@ -352,6 +354,7 @@ a:link {
     z-index: 100;
     font-weight: 700;
     direction: ltr;
+
   }
   
   .timeline-content h3 {
