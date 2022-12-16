@@ -14,15 +14,15 @@ function Navbar({ currentPage, handlePageChange }) {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item word">
-              <a
-                href='/'
+            <li className="nav-item">
+              <Link
+                to={{pathname: '/'}}
                 onClick={() => handlePageChange('Home')}
                 className={currentPage === 'Home' ? 'nav-link active' : "nav-link"}
               >
                 Home
                 <span className="sr-only"></span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link
