@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
@@ -24,40 +25,40 @@ function Navbar({ currentPage, handlePageChange }) {
               </a>
             </li>
             <li className="nav-item">
-              <a
-                href='/aboutme'
+              <Link
+                to={{pathname: '/aboutme'}}
                 onClick={() => handlePageChange('AboutMe')}
-                className={currentPage === 'Home' ? 'nav-link active' : "nav-link"}
+                className={currentPage === 'AboutMe' ? 'nav-link active' : "nav-link"}
               >
                 About Me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a 
-                href='/portfolio'
+              <Link 
+                to={{pathname: '/portfolio'}}
                 onClick={() => handlePageChange('Portfolio')}
                 className={currentPage === 'Portfolio' ? 'nav-link active' : "nav-link"}
               >
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
-                href='/resume'
+              <Link
+                to={{pathname: '/resume'}}
                 onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Portfolio' ? 'nav-link active' : "nav-link"}
+                className={currentPage === 'Resume' ? 'nav-link active' : "nav-link"}
               >
                 Resume
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a 
-                href='/contact'
+              <Link 
+                to={{pathname: '/contact'}}
                 onClick={() => handlePageChange('Contact')}
                 className={currentPage === 'Contact' ? 'nav-link active' : "nav-link"}
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
