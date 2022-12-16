@@ -113,21 +113,10 @@ nav ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* font-family: "Roboto Condensed", sans-serif; */
 }
 
 .main-info h1 {
     color: var(--primary-orange);
-    /* color: rgba(9, 64, 84, 0.832); */
-    /* text-shadow: 
-    0 0 7px rgba(191, 191, 28, 0.351),
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgba(9, 64, 84, 0.832),
-    0 0 82px rgba(9, 64, 84, 0.832),
-    0 0 92px rgba(9, 64, 84, 0.832),
-    0 0 102px rgba(9, 64, 84, 0.832),
-    0 0 151px rgba(9, 64, 84, 0.832); */
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -135,16 +124,6 @@ nav ul li {
 .Typewriter__wrapper, .Typewriter__cursor {
     font-size: 2rem;
     color: var(--primary-orange);
-    /* color: rgba(9, 64, 84, 0.832); */
-    /* text-shadow:  */
-    /* 0 0 7px rgba(191, 191, 28, 0.351),
-    0 0 10px #fff,
-    0 0 21px #fff, */
-    /* 0 0 42px rgba(9, 64, 84, 0.832),
-    0 0 82px rgba(9, 64, 84, 0.832),
-    0 0 92px rgba(9, 64, 84, 0.832),
-    0 0 102px rgba(9, 64, 84, 0.832),
-    0 0 151px rgba(9, 64, 84, 0.832); */
 }
 
 
@@ -153,17 +132,12 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: .5rem; */
-    /* height: 18rem; */
-    /* padding-bottom: 1rem; */
-    /* padding-top: 1rem; */
 }
 
 .profile-img {
     width: 16rem;
     border-radius: 50%;
     padding: .3rem;
-    /* border: 1px solid var(--primary-fuchsia); */
     border: 1px solid var(--primary-orange);
     margin-top: 2rem;
 }
@@ -171,22 +145,16 @@ nav ul li {
 .about-heading {
     color: var(--primary-orange);
     font-weight: 700;
-    /* text-transform: uppercase; */
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
     font-size: 6rem;
     font-family: "MonteCarlo";
 }
 
 .about-paragraph {
     background-color: bisque;
-    /* margin-right: 1rem; */
-    /* margin-left: .5rem; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* font-weight: 700; */
-    /* z-index: 1; */
     border: 1px solid var(--primary-orange);
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -212,81 +180,50 @@ nav ul li {
 } */
 
 .portfolio-image {
-    width: 15rem;
-    border: 1px solid var(--primary-orange);
-    /* padding: 0 0.5rem; */
+    width: 15rem !important;
+    border: 1px solid var(--primary-orange) !important;
 }
 
 .portfolio-image-box {
     position: relative; 
-    /* margin-top: 3rem; */
-    margin: 4rem;
+    margin: 4rem !important;
 }
 
 .portfolio-wrapper a {
-    color: var(--primary-orange);
-   
+    color: var(--primary-orange) !important; 
 }
-/* .portfolio-image-box-1 {
-    margin: 1rem;
-    float:right;
-    display: inline;
-} */
 
 h1 {
-    color: var(--primary-orange);
-    font-weight: 700;
-    margin: 6rem;
-    
+    color: var(--primary-orange) !important;
+    font-weight: 700 !important;
+    margin: 6rem !important;
 }
 
 
 /*********************************************************** Resume *********************************************************************/
 
 .resume-text {
-    /* color: var(--primary-fuchsia) !important; */
     color: rgb(223, 95, 40);
     text-transform: uppercase;
     padding-bottom: 1rem;
 }
 
 
-/* .icons {
-color: rgb(44, 178, 44);
-font-size: 3rem;
-} */
-
-/* removed white space between portfolio and resume */
-/* .resume {
-    background-color: var(--primary-black);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-} */
-
-
 a:link { 
     text-decoration: none;
 }
 
-/************************ EXPERIENCE *********************************/
+/*********************************************************** Experience *********************************************************************/
 
 .experience {
     /* padding: 0.7rem; */
     background-color: bisque;
     opacity: .8;
     border: 1px solid var(--primary-orange);
-    /* height: 68rem;
-    width: 40rem; */
     margin: 9rem;
     padding-left: 2rem;
     padding-right: 3rem;
-    /* display: flex; */
-
   }
-
-  /* #experience-link a:hover {
-    color: var(--primary-fuchsia) !important;
-}  */
   
   .experience-wrapper {
     position: relative;
@@ -296,10 +233,7 @@ a:link {
   
   .experience h1 {
     text-transform: uppercase;
-    /* color: var(--primary-orange); */
-    /* color:  #f9ab00; */
     color: var(--primary-orange);
-    /* z-index: 1; */
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
@@ -313,7 +247,6 @@ a:link {
     margin-left: -0.0625rem;
     width: 0.125rem;
     height: 100%;
-    /* background: var(--primary-grey); */
     background: var(--primary-lightYellow);
     z-index: 1;
   }
@@ -340,8 +273,6 @@ a:link {
     height: 1rem;
     border-radius: 50%;;
     border: 0.3125rem solid var(--primary-dark);
-    /* background: var(--primary-orange); */
-    /* background: #f9ab00; */
     background: var(--primary-orange);
     margin-top: 0.625rem;
     z-index: 3;
@@ -350,11 +281,7 @@ a:link {
   .timeline-content {
     width: 95%;
     padding: 0 0.9375rem;
-    /* color: var(--primary-dark-grey); */
-    /* color:  #ccd1d9; */
-    /* color: rgba(117, 26, 117, 0.995); */
     color: var(--primary-orange);
-    /* color: rgb(223, 95, 40); */
     z-index: 100;
     font-weight: 700;
     direction: ltr;
@@ -364,10 +291,6 @@ a:link {
   .timeline-content h3 {
     margin-top: 0.3125rem;
     color: rgb(213, 68, 10);
-    /* color: var(--primary-red); */
-    /* color: #ef4035; */
-    /* color: rgb(20, 174, 133); */
-    /* color: rgb(221, 127, 45); */
     font-weight: 700;
   }
 
@@ -375,16 +298,13 @@ a:link {
     font-weight: 800;
     font-style: italic;
     color: rgb(162, 162, 36);
-    /* color: bisque; */
   }
 
   .resume a {
     color: var(--primary-orange);
-    /* color: rgb(223, 95, 40); */
   }
   
 #resume-link a:hover {
-    /* color: gold; */
     color: rgb(223, 95, 40);
 }
 

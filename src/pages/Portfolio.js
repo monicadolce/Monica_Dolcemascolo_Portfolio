@@ -4,8 +4,6 @@ import furrever from '../assets/furrever.gif';
 import medley from '../assets/medley.gif';
 import book_look from '../assets/book_look.gif';
 import { FaGithub } from 'react-icons/fa';
-// import { PopupboxManager, PopupboxContainer } from "react-popupbox";
-// import "react-popupbox/dist/react-popupbox.css";
 
 
 export default function Portfolio() {

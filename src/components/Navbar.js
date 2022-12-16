@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className='container'>
         <p className="navbar-name">Monica Dolcemascolo</p>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
