@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Monica_Dolcemascolo_Portfolio/static/css/main.7035dbc3.css",
-    "main.js": "/Monica_Dolcemascolo_Portfolio/static/js/main.e591eab8.js",
+    "main.css": "/Monica_Dolcemascolo_Portfolio/static/css/main.63b106e0.css",
+    "main.js": "/Monica_Dolcemascolo_Portfolio/static/js/main.0cf0d3aa.js",
     "static/media/book_look.gif": "/Monica_Dolcemascolo_Portfolio/static/media/book_look.54bacb34555dbe7af2b6.gif",
     "static/media/furrever.gif": "/Monica_Dolcemascolo_Portfolio/static/media/furrever.b9583156b13e356728d6.gif",
     "static/media/scheduler.gif": "/Monica_Dolcemascolo_Portfolio/static/media/scheduler.5b3f62cdcc4cafa34102.gif",
@@ -9,11 +9,11 @@
     "static/media/tuscany.jpeg": "/Monica_Dolcemascolo_Portfolio/static/media/tuscany.3c8ca225e87f2cf9926f.jpeg",
     "static/media/profile.png": "/Monica_Dolcemascolo_Portfolio/static/media/profile.950f4218bc4ccb16a707.png",
     "index.html": "/Monica_Dolcemascolo_Portfolio/index.html",
-    "main.7035dbc3.css.map": "/Monica_Dolcemascolo_Portfolio/static/css/main.7035dbc3.css.map",
-    "main.e591eab8.js.map": "/Monica_Dolcemascolo_Portfolio/static/js/main.e591eab8.js.map"
+    "main.63b106e0.css.map": "/Monica_Dolcemascolo_Portfolio/static/css/main.63b106e0.css.map",
+    "main.0cf0d3aa.js.map": "/Monica_Dolcemascolo_Portfolio/static/js/main.0cf0d3aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7035dbc3.css",
-    "static/js/main.e591eab8.js"
+    "static/css/main.63b106e0.css",
+    "static/js/main.0cf0d3aa.js"
   ]
 }
