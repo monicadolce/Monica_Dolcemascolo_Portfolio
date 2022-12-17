@@ -18,24 +18,7 @@
 
 }
 
-body {
-    font-family: "Roboto Condensed", sans-serif !important;
-    /* background-color: rgb(226, 221, 221); */
-    /* background-color: rgb(232, 217, 196); */
-    background-color: rgb(210	180	140);
-    background-image: url(tuscany.jpeg);
-    background-size: 100%;
-    background-position-y: 100px;
-    opacity: 1;
-    /* filter: grayscale(10%); */
-    background-repeat: no-repeat;
-     background-size: cover;
-    background-position: center;
-    /* -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; */
-    background-repeat:inherit;
-    /* background-color: black; */
-}
+
 
 /*********************************************************** Navbar *********************************************************************/
 
