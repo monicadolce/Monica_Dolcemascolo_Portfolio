@@ -15,4 +15,4 @@ Portfolio Demo
 
 ## Deployed URL
 ---
-Application GitHub URL : <a href= "https://monicadolce.github.io/Monica_Dolcemascolo_Portfolio/">Visit Monica's GitHub Repository</a> 
+Application GitHub Pages URL : <a href= "https://monicadolce.github.io/Monica_Dolcemascolo_Portfolio/">Visit Monica's Portfolio</a> 

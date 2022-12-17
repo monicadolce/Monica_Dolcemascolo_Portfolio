@@ -6,10 +6,8 @@
 
 :root {
     --primary-white: rgb(255, 255, 255);
-    --primary-fuchsia: rgb(255, 0, 255);
     --primary-black: rgb(0, 0, 0);
     --primary-dark: rgb(52, 58, 64);
-    --primary-purple: rgba(117, 26, 117, 0.995);
     --primary-blue: rgba(9, 64, 84, 0.832);
     --primary-darkYellow: rgba(191, 191, 28, 0.351);
     --primary-lightYellow:  rgb(210, 180, 140);
@@ -23,18 +21,10 @@
 /*********************************************************** Navbar *********************************************************************/
 
 .navbar {
-    /* background-color: var(--primary-dark) !important; */
-    /* background-color: rgba(219, 182, 217, 0.755) !important; */
-    /* background-color: rgba(128, 128, 10, 0.855) !important; */
     background-color: rgba(191, 191, 28, 0.351) !important;
-    /* padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    margin-bottom: 6rem; */
-    /* height: 7rem; */
 }
 
 nav a.nav-link {
-    /* font-weight: 500; */
     letter-spacing: 0.0375rem;
     cursor: pointer;
     font-size: 1rem;
@@ -47,41 +37,26 @@ nav ul li {
 .navbar-nav > li > a {
     margin-right: 0.75rem;
     margin-left: 0.75rem;
-    /* color: var(--primary-white) !important; */
-    /* color: rgba(22, 129, 168, 0.67); */
     color: rgba(9, 64, 84, 0.67);
-    
     font-weight: bold;
-    /* color: rgba(13, 55, 134, 0.499); */
-    /* margin-bottom: 4rem; */
 }
 
 .navbar-name {
     color: rgba(9, 64, 84, 0.832);
-    /* color: rgb(85,53,146); */
     font-size: 3.5rem;
-    /* font-family: "Dancing Script", cursive; */
     font-family: "MonteCarlo";
     font-weight: bold;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
     border-bottom: 0.1875rem solid var(--primary-blue);
-    /* font-weight: 700; */
 }
 
-/* .navbar-nav > li > a:hover {
-
-} */
 
 /*********************************************************** Home *********************************************************************/
 
 .home-wrapper {
     position: relative;
-    /* background: url(background3.jpg) no-repeat center center fixed; */
-
-    /* background-size: cover; */
-    /* background-position: center; */
     height: 90vh;
 }
 
@@ -158,9 +133,6 @@ nav ul li {
 }
 
 /*********************************************************** Portfolio *********************************************************************/
-/* .portfolio-wrapper {
-    padding: 0 1rem;
-} */
 
 .portfolio-image {
     width: 15rem !important;
@@ -199,7 +171,6 @@ a:link {
 /*********************************************************** Experience *********************************************************************/
 
 .experience {
-    /* padding: 0.7rem; */
     background-color: bisque;
     opacity: .8;
     border: 1px solid var(--primary-orange);
@@ -313,12 +284,6 @@ a:link {
 }
 
 /*********************************************************** Contact *********************************************************************/
-/* 
-.contact { 
-    background-color: rgb(70, 154, 200);
-    padding: .4rem 0.3;
-    width: 50%;
-}  */
 
 .contact h1{
 color: var(--primary-orange);
@@ -326,11 +291,6 @@ padding-top: 4rem;
 text-transform: uppercase;
 }
 
-/* .contact p {
-    color: var(--primary-fuchsia);
-    font-size: 1.2rem;
-}
- */
 
 #contact-name {
     margin-bottom: 1rem;
@@ -359,19 +319,13 @@ text-transform: uppercase;
 }
 
 
-/* .contact .container {
-    padding: 2rem 0;
-} */
-
 .contact input:focus, .contact textarea:focus {
     background: transparent;
     color: var(--primary-lightYellow);
     border-bottom: 0.125rem solid var(--primary-dark);
 }
 
-/* .contact textarea {
-    height: 12.4rem !important;
-} */
+
 
 .contact-btn {
     margin: 1rem 0 0 0;
@@ -379,14 +333,6 @@ text-transform: uppercase;
     background: orange !important;
 }
 
-/* .line {
-    position: relative;
-    top: -0.8rem;
-    width: 0;
-    height: 0.125rem;
-    background: var(--primary-orange);
-    display: inline-block;
-} */
 
 input:focus+.line, textarea:focus+.line {
     width: 100%;
@@ -402,7 +348,6 @@ textarea.form-control {
 }
 
 .contact .container {
-    /* padding-top: 1.5rem; */
     padding-bottom: 4rem;
 }
 
@@ -426,15 +371,10 @@ textarea.form-control {
 /*********************************************************** Footer *********************************************************************/
 
 #footer {
-    /* background: var(--primary-dark); */
-    /* background-color: rgba(219, 182, 217, 0.755) !important; */
-    /* background-color: rgba(191, 191, 28, 0.33) !important; */
     background-color: rgba(191, 191, 28, 0.351) !important;
-    
     color: var(--primary-orange);
     padding: 2rem;
     margin-top: 2rem; 
-    /* padding-bottom: 4rem; */
 }
 
 #footer a {
@@ -448,17 +388,8 @@ textarea.form-control {
     cursor: pointer;
 }
 
-/* .footer p {
-    margin-bottom: .5;
-} */
 
 #pt-3 {
-    /* color: var(--primary-orange); */
-    /* color: rgb(221, 127, 45); */
-    /* color: rgb(223, 95, 40); */
-   /* color: rgb(9, 64, 84); */
-   /* color: rgba(9, 64, 84, 0.832); */
-   /* color: rgb(223, 95, 40); */
    font-weight: bold;
 }
 
