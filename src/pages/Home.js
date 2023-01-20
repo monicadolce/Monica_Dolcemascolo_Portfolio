@@ -11,7 +11,7 @@ export default function Home() {
             wrapperClassName='Typewriter__wrapper' 
             cursorClassName='Typewriter__cursor'
             options={{
-            strings:["React","JavaScript", "Node", "CSS", "HTML", "Bootstrap", "SQL", "Mongo", "Express", "jQuery", "Moment"],
+            strings:["React","JavaScript", "Node", "CSS", "HTML", "Bootstrap", "SQL", "Mongo", "Express", "jQuery", "Moment", "Java"],
             autoStart: true,
             loop: true,
             }}
