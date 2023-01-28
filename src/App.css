@@ -103,8 +103,8 @@ nav ul li {
 .about-heading {
     color: var(--primary-orange);
     font-weight: 700;
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
+    margin-top: .2rem !important;
+    margin-bottom: 1rem !important;
     font-size: 6rem;
     font-family: "MonteCarlo";
 }
@@ -114,8 +114,8 @@ nav ul li {
     display: flex;
     justify-content: center;
     border: 1px solid var(--primary-orange);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
     padding-right: 3rem;
     padding-left: 3rem;
     color: var(--primary-orange);
@@ -128,7 +128,7 @@ nav ul li {
     justify-content: center;
     padding-left: 5rem;
     padding-bottom: 1rem;
-    padding-top: 9rem;
+    padding-top: 6rem;
   
 }
 
@@ -141,7 +141,7 @@ nav ul li {
 
 .portfolio-image-box {
     position: relative; 
-    margin: 4rem !important;
+    /* margin: 1rem !important; */
 }
 
 .portfolio-wrapper a {
@@ -151,7 +151,7 @@ nav ul li {
 h1 {
     color: var(--primary-orange) !important;
     font-weight: 700 !important;
-    margin: 6rem !important;
+    margin: 5rem !important;
 }
 
 
@@ -371,10 +371,14 @@ textarea.form-control {
 /*********************************************************** Footer *********************************************************************/
 
 #footer {
+    /* position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%; */
     background-color: rgba(191, 191, 28, 0.351) !important;
     color: var(--primary-orange);
-    padding: 2rem;
-    margin-top: 2rem; 
+    /* padding: 2rem;
+    margin-top: 2rem;  */
 }
 
 #footer a {
@@ -391,6 +395,7 @@ textarea.form-control {
 
 #pt-3 {
    font-weight: bold;
+   
 }
 
 #github-icon {

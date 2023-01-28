@@ -12,7 +12,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 const Footer = () => {
     return (
-        <footer id= 'footer' className= "container-fluid absolute-bottom ">
+        <footer id= 'footer' className= "container-fluid fixed-bottom">
             <div className="">
                 <div className='row justify-content-md-center py-3'>
                     <div className='d-flex justify-content-center'>

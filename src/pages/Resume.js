@@ -6,7 +6,7 @@ export default function Resume () {
   return (
     <div id="experience" className="experience">
     <div className="d-flex justify-content-center my-5">
-    <a href='https://drive.google.com/file/d/1QnwayLN0VOAjT9iKNOLGH6yFGKz5Sw2M/view?usp=sharing' target={'_blank'}><h1 id= 'experience-link' className='resume-text'>Experience</h1></a>
+    <a href='https://drive.google.com/file/d/1IVHjMdve4M9aVKvgEmpEiD7f6K9lWuKi/view?usp=sharing' target={'_blank'}><h1 id= 'experience-link' className='resume-text'>Experience</h1></a>
     </div>
     <div className="container experience-wrapper">
       <div className="timeline-block timeline-block-right">
@@ -59,7 +59,7 @@ export default function Resume () {
         <div className="timeline-content">
           <h3>... to be continued</h3>
           <h5>Learn more about me!</h5>
-          <p id= 'resume-link' className='resume link'><a href='https://drive.google.com/file/d/1QnwayLN0VOAjT9iKNOLGH6yFGKz5Sw2M/view?usp=sharing' target={'_blank'}>Click here to go to my resume and find out about my skills, education, certifications and more!</a></p>
+          <p id= 'resume-link' className='resume link'><a href='https://drive.google.com/file/d/1IVHjMdve4M9aVKvgEmpEiD7f6K9lWuKi/view?usp=sharing' target={'_blank'}>Click here to go to my resume and find out about my skills, education, certifications and more!</a></p>
         </div>
       </div>
     </div>
